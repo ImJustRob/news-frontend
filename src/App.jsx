@@ -4,11 +4,11 @@ import { Footer } from "./Footer";
 
 function App() {
   return (
-    <div>
+    <div className="flex min-h-screen flex-col">
       <Header />
       <ArticlesPage />
       <Footer />
-    </div>
+    </div >
   )
 }
 
